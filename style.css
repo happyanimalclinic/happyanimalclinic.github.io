@@ -210,7 +210,6 @@ footer {
     -webkit-overflow-scrolling: touch;
     white-space: nowrap;
     justify-content: flex-start;
-    text-align: unset;
   }
 
   nav a {
