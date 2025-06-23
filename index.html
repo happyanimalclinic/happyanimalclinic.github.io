@@ -5,22 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="naver-site-verification" content="36a554d582193345f3c071626b85be37e5f11107" />
   <title>행복한 동물병원</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Asta+Sans:wght@300..800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      const thumbnails = document.querySelectorAll('.slider-thumbnails img');
-      const mainImage = document.getElementById('mainImage');
-
-      thumbnails.forEach(img => {
-        img.addEventListener('click', function () {
-          mainImage.src = this.src;
-          thumbnails.forEach(i => i.classList.remove('active'));
-          this.classList.add('active');
-        });
-      });
-    });
-  </script>
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XLHYTEEMN0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XLHYTEEMN0');
+</script>
 <body>
   <nav>
     <a href="index.html" class="active">홈</a>
@@ -29,7 +27,7 @@
     <a href="location.html">오시는 길</a>
   </nav>
   <div class="container">
-    <h1 style="text-align: center;">행복한 동물병원에 오신 것을 환영합니다</h1>
+    <h1 style="text-align: center;">행복한 동물병원</h1>
     <div class="slider-wrapper">
       <div class="slider">
         <div class="slider-main-container">
@@ -44,7 +42,7 @@
         </div>
       </div>
     </div>
-        <p>안녕하세요, 행복한동물병원입니다.<br>
+        <p>안녕하세요, 도봉구 창동에 위치한 행복한동물병원입니다.<br>
         찾아오시는 고객님들과 반려동물들의 행복을 위해 가족처럼 사랑으로 대하겠습니다.
         </p>
 
@@ -60,6 +58,18 @@
     </div>
     </div>
   </div>
+  <footer>
+    <div class="footer-content">
+      <p>
+        <span class="footer-line1">
+          <strong>행복한동물병원</strong> | <a href="tel:029968275">02-996-8275</a>
+        </span><br>
+        <span class="footer-line2">
+          서울특별시 도봉구 도봉로136길 7 한독상가 108호 (구주소: 서울특별시 도봉구 창5동 749-16 108호)
+        </span>
+      </p>
+    </div>
+  </footer>
   <script>
   document.addEventListener('DOMContentLoaded', function () {
     const thumbnails = document.querySelectorAll('.slider-thumbnails img');
@@ -91,10 +101,5 @@
     }, interval);
   });
 </script>
-  <footer>
-    <div class="footer-content">
-        <p><strong>행복한동물병원</strong> | 서울특별시 도봉구 창5동 749-16 108호 | 전화: 02-996-8275</p>
-    </div>
-  </footer>
 </body>
 </html>
